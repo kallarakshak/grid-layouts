@@ -1,0 +1,38 @@
+.parent{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(8,1fr);
+    gap:10px;
+    height: 500px;
+}
+.child{
+    background-color: yellow;
+}
+.one{
+    grid-column:1/5;
+    grid-row: 1/5;
+}
+.two{
+    grid-row: 5/9;
+}
+.three{
+    grid-row: 5/6;
+}
+.four{
+    grid-row: 5/7;
+}
+.five{
+    grid-row: 5/8;
+}
+.six{
+    grid-row: 6/9;
+}
+.seven{
+    grid-row: 7/8;
+}
+.eight{
+    grid-row:8/9;
+}
+.nine{
+    grid-row:8/9;
+}
